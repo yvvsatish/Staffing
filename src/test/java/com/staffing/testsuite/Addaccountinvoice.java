@@ -70,6 +70,7 @@ public class Addaccountinvoice extends Constants{
 				s.getScreenshot(driver, fail);
 				Thread.sleep(2000);
 				driver.findElement(By.cssSelector("input.btn.default")).click();
+				System.out.println("success");
 			}
 		}
 		FileOutputStream f1=new FileOutputStream(accountsinvoiceres);
