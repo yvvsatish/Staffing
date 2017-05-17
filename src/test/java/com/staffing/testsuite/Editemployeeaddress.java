@@ -103,7 +103,7 @@ public class Editemployeeaddress extends Constants
 								s.getScreenshot(driver, fail);
 								Thread.sleep(2000);
 								driver.findElement(By.cssSelector("input.btn.default")).click();
-								System.out.println("success");
+								System.out.println("succes");
 							}
 							break;
 						}
